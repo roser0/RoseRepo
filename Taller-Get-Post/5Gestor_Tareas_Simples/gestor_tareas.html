@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor de Tareas</title>
+</head>
+<body>
+    <h2>Agregar Nueva Tarea</h2>
+    <form action="agregar_tarea.php" method="POST">
+        <label for="titulo">Título:</label><br>
+        <input type="text" id="titulo" name="titulo" required><br><br>
+
+        <label for="descripcion">Descripción:</label><br>
+        <textarea id="descripcion" name="descripcion" required></textarea><br><br>
+
+        <label for="prioridad">Prioridad:</label><br>
+        <select id="prioridad" name="prioridad">
+            <option value="Baja">Baja</option>
+            <option value="Media">Media</option>
+            <option value="Alta">Alta</option>
+        </select><br><br>
+
+        <input type="submit" value="Agregar Tarea">
+    </form>
+    <br>
+    <a href="listar_tareas.php">Ver lista de tareas</a>
+</body>
+</html>

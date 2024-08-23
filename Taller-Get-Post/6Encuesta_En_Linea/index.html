@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta en Línea</title>
+</head>
+<body>
+    <h2>Encuesta: ¿Cuál es tu género musical favorito?</h2>
+    <form action="procesar_encuesta.php" method="GET">
+        <input type="radio" id="rock" name="opcion" value="Rock">
+        <label for="rock">Rock</label><br>
+
+        <input type="radio" id="pop" name="opcion" value="Pop">
+        <label for="pop">Pop</label><br>
+
+        <input type="radio" id="jazz" name="opcion" value="Jazz">
+        <label for="jazz">Jazz</label><br>
+
+        <input type="radio" id="classical" name="opcion" value="Clásica">
+        <label for="classical">Clásica</label><br>
+
+        <input type="submit" value="Votar">
+    </form>
+    <br>
+    <a href="resultados_encuesta.php">Ver resultados</a>
+</body>
+</html>

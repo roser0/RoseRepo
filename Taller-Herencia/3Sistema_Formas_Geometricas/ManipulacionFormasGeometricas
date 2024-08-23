@@ -1,0 +1,21 @@
+<?php
+require_once 'FormasGeometricasDerivadas.php';
+
+// Creación de un Círculo
+$miCirculo = new Circulo("Rojo", 5);
+echo $miCirculo->obtenerDetalles() . "<br>";
+echo "Área: " . $miCirculo->calcularArea() . "<br>";
+echo "Perímetro: " . $miCirculo->calcularPerimetro() . "<br><br>";
+
+// Creación de un Rectángulo
+$miRectangulo = new Rectangulo("Verde", 4, 6);
+echo $miRectangulo->obtenerDetalles() . "<br>";
+echo "Área: " . $miRectangulo->calcularArea() . "<br>";
+echo "Perímetro: " . $miRectangulo->calcularPerimetro() . "<br><br>";
+
+// Creación de un Triángulo
+$miTriangulo = new Triangulo("Azul", 3, 4, 3, 4, 5);
+echo $miTriangulo->obtenerDetalles() . "<br>";
+echo "Área: " . $miTriangulo->calcularArea() . "<br>";
+echo "Perímetro: " . $miTriangulo->calcularPerimetro() . "<br>";
+?>

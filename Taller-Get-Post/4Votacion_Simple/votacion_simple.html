@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Votación Simple</title>
+</head>
+<body>
+    <h2>¿Cuál es tu lenguaje de programación favorito?</h2>
+    <form action="procesar_voto.php" method="GET">
+        <input type="radio" id="python" name="opcion" value="Python">
+        <label for="python">Python</label><br>
+        
+        <input type="radio" id="javascript" name="opcion" value="JavaScript">
+        <label for="javascript">JavaScript</label><br>
+        
+        <input type="radio" id="java" name="opcion" value="Java">
+        <label for="java">Java</label><br>
+        
+        <input type="radio" id="csharp" name="opcion" value="C#">
+        <label for="csharp">C#</label><br>
+        
+        <input type="submit" value="Votar">
+    </form>
+</body>
+</html>

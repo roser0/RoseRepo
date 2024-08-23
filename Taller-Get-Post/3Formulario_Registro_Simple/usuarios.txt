@@ -1,0 +1,5 @@
+Nombre: pedro
+Apellido: Pedro
+Correo Electrónico: asdasdasd@gmail.com
+Contraseña: $2y$10$GS1UGmIWMLH8gMiobopMvOuSYYHPOlom0kRLbajaVRKyii5FyCxpi
+
